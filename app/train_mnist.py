@@ -8,7 +8,7 @@ from .model import CNN   # 위에서 만든 CNN 모델 불러오기
 
 def train_mnist(
         batch_size: int = 128,      # 한 번에 학습시키는 이미지 개수
-        epochs: int = 5,            # 전체 데이터 5번 학습
+        epochs: int = 100,            # 전체 데이터 5번 학습
         lr: float = 1e-3,           # learning rate (학습 속도)
         save_path: str = "models/mnist_cnn.pth",
 ):
