@@ -1,5 +1,3 @@
-# app/train_mnist.py
-
 import torch
 from torch import nn, optim
 from torch.utils.data import DataLoader

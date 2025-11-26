@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>손글씨 숫자 인식</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<div class="card">
+    <h2>손글씨 숫자 인식</h2>
+
+    <!-- 이미지 촬영/선택 -->
+    <input type="file" id="file-input" accept="image/*" capture="environment">
+
+    <!-- 사용자가 선택한 이미지 미리보기 -->
+    <img id="preview" alt="preview" style="display:none;">
+
+    <button id="submit-btn">인식하기</button>
+
+    <!-- 예측 결과 표시 -->
+    <div id="result"></div>
+</div>
+<script src="/js/common.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+body { font-family: system-ui, sans-serif; padding: 16px; }
+.card { max-width: 480px; margin: 0 auto; border: 1px solid #ddd; border-radius: 8px; padding: 16px; }
+button { padding: 8px 16px; margin-top: 12px; }
+#preview { max-width: 100%; margin-top: 12px; }
+#result { margin-top: 12px; font-size: 1.1rem; }

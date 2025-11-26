@@ -1,5 +1,3 @@
-# app/model.py
-
 import torch
 from torch import nn
 
